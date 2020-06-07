@@ -1,0 +1,29 @@
+table, td, th tr{
+	margin: auto;
+	border:1px solid;
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+
+}
+
+.div1{
+	width: 70%;
+	margin: auto;
+}
+
+.div2{
+	width: 80%;
+	margin: auto;
+	
+}
+
+.wrapper{
+	margin-bottom: 200px;
+
+}
+
+.first_name{
+	
+}

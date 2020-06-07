@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+	<meta charset="UTF-8">
+	<title>HW-HTML 3 of 4</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+
+<!-- BODY START -->
+
+<body style="background:rgb(247, 240, 255)">
+
+<div style="width: 100%; height: 100px; background-color:rgba(110, 110, 110, .4);">
+</div>
+
+<!-- CSS POWER -->
+<div class="div1">
+
+<h2 style="color:green;">CSS POWER</h2>
+	<p>According to implementation of CSS power, the sequence is below:</p>
+	<ol>
+		<li>Inline CSS</li>
+		<li>Internal CSS</li>
+		<li>External CSS</li>
+	</ol>
+
+
+	<!-- CODE COMMENTING -->
+
+<h2 style="color:green;">CODE LOADING ORDER</h2>
+<p>There is an order of loading a web page codes, 1st HTML as a markup language, 2nd CSS as styling page & 3rd JavaScript as behaviour of the page.</p>
+	<ol>
+		<li>HTML</li>
+		<li>CSS</li>
+		<li>JavaScript</li>
+	</ol>
+
+
+<!--CODE OPTIMIZATION-->
+
+
+<h2 style="color:green; border: 3px dotted green;">CODE OPTIMIZATION</h2>
+<P>We have to use minimum code to apply style. For example: border: 3px dotted green;</P>
+
+
+<!-- CSS SELECTORS-->
+
+
+<h2 style="color:green;">CSS SELECTORS</h2>
+
+<h3>There are three (3) types of Selectors mostly used in HTML styling are as follows</h3>
+
+<p><strong>Element Selector=</strong> div, body, section, aside, nav, etc. This selector is not specific, because style on element/tag selector apply on all same element/tag's present in whole html document. Example: p { text-align: center;} Here, all 'p' elements on the page will be center-aligned</p>
+
+<p><strong>Class Selector=</strong>The class selector selects HTML elements with a specific class attribute.To select elements with a specific class, write a period (.) character, followed by the class name. Example: .navbar {color:red;}</p>
+
+<p><strong>ID Selector=</strong> It uses the id attribute of an HTML element to select a specific element. The id of an element is unique within a page, so the id selector is used to select one unique element! a hash (#) followed by the id of the element is used to select an id. Note: An id name cannot start with a number!Example: #logo {height:auto;} </p>
+
+
+<!-- UNIVERSAL SELECTOR 
+CSS Universal Selector (*) selects all HTML elements on the page.
+Example:
+* {
+  text-align: center;
+  color: blue;
+}
+
+-->
+
+
+<!--CSS Grouping Selector selects all the HTML elements with the same style definitions.
+The following CSS code (the h1, h2, and p elements have the same style definitions):
+
+h1 {
+  text-align: center;
+  color: red;
+}
+
+h2 {
+  text-align: center;
+  color: red;
+}
+
+p {
+  text-align: center;
+  color: red;
+}
+
+---------------------------------------------------------------------------------------------------
+It will be better to group the selectors, to minimize the code, separate each selector with a comma.
+Example
+
+h1, h2, p {
+  text-align: center;
+  color: red;
+}
+-->
+
+
+
+
+<h2 style="color:green;">MEASUREMENT</h2>
+
+<h2 style="color:green;">USE OF COLOR</h2>
+	<dl>
+		<dt>SOLID:</dt>
+		<dd style="color:blue">It is used by giving input of color name directly. Example: color:blue</dd>
+		
+		<dt>HEXADECIMAL:</dt>
+		<dd style="color:#3cb371">A hexadecimal color is specified with: #RRGGBB, where the RR (red), GG (green) and BB (blue) hexadecimal integers specify the components of the color. Example: #3cb371</dd>
+		
+		<dt>RGB:</dt>
+		<dd style="color:rgb(255, 0, 0">In HTML, a color can be specified as an RGB value, using this formula:rgb(red, green, blue); For example, rgb(255, 0, 0) is displayed as red</dd>
+		
+		<dt>RGBA:</dt>
+		<dd style="color:rgba(17, 141, 134, 0.7)">RGBA color values are an extension of RGB color values with an alpha channel - which specifies the opacity for a color. formula: rgba(red, green, blue, alpha); The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (not transparent at all) Example: rgba(17, 141, 134, 0.7)</dd>
+	</dl>
+
+
+
+
+<h2 style="color:green;">CREATING LIST</h2>
+
+</div>
+
+
+
+<h1 style="color:red; text-align:center;">CREATING TABLE</h1>
+
+<div class="div2">
+
+<h2 style="color:green; text-align: center; size: 20px;">HTML Element Reference</h2>
+
+<table class="table_element">
+	<colgroup>
+		<col style="background-color:lightgreen;">
+		<col style="background-color:skyblue;">
+		<col style="background-color:lightblue;">
+		<col style="background-color:yellow;">
+	</colgroup>
+<tbody class="table">
+	<tr>
+		<th>Sl</th>
+		<th>Tag</th>
+		<th>Description</th>
+		<th>Example</th>
+	</tr>
+	<tr>
+		<td>001</td>
+		<td>< !--...--></td>
+		<td>Defines a comment</td>
+		<td>Comments can be watched in source</td>
+	</tr>
+	<tr>
+		<td>002</td>
+		<td>< !DOCTYPE></td>
+		<td>Defines the document type</td>
+		<td>Hidden in every page</td>
+	</tr>
+	<tr>
+		<td>003</td>
+		<td>< a></td>
+		<td>Defines a hyperlink</td>
+		<td><a href="#">This is an example of hyperlink: Click the link</td>
+	</tr>
+	<tr>
+		<td>004</td>
+		<td>< abbr></td>
+		<td>Defines an abbreviation or an acronym</td>
+		<td>For example: Hover mouse on <abbr title="World Health Organization">WHO</abbr> to see it's abbriviation </td>
+	</tr>
+	<tr>
+		<td>005</td>
+		<td>< address></td>
+		<td>Defines contact information for the author/owner of a document</td>
+		<td>For example: <address> Flat# 11/33, Road# 02, Gulsha-2, Dhaka</address></td>
+	</tr>
+	<tr>
+		<td>006</td>
+		<td>< area></td>
+		<td>Defines an area inside an image-map</td>
+		<td style="float:right;"><p>For Example:</p>
+				<img src="images/workplace.jpg" alt="Workplace" usemap="#workmap" width="200" height="179">
+					<map name="workmap">
+  				<area shape="rect" coords="34,44,270,350" alt="Computer" href="#">
+  				</map>
+		</td>
+	</tr>
+	<tr>
+		<td>007</td>
+		<td>< article></td>
+		<td>Defines an article</td>
+		<td>The < article> element can be used CSS to style the Forum,Blog post or News story</td>
+	</tr>
+	<tr>
+		<td>008</td>
+		<td>< aside></td>
+		<td>Defines content aside from the page content</td>
+		<td>The < aside> tag defines some content aside from the content. <aside>It is often placed as a sidebar in a document.</aside></td>
+	</tr>
+	<tr>
+		<td>009</td>
+		<td>< audio></td>
+		<td>Defines embedded sound content</td>
+		<td><audio controls> <source src="http://www.hajj.gov.bd/wp-content/themes/HMS_portal/images/audio/talbia.ogg" type="audio/ogg"><source src="http://www.hajj.gov.bd/wp-content/themes/HMS_portal/images/audio/talbia.mp3" type=""></audio></td>
+	</tr>
+	<tr>
+		<td>010</td>
+		<td>< b></td>
+		<td>Defines bold text</td>
+		<td><b>This Text is bold, do you see that?</b></td>
+	</tr>
+	<tr>
+		<td>011</td>
+		<td>< base></td>
+		<td>Specifies the base URL/target for all relative URLs in a document</td>
+		<td>Attribute: target, Value:1. _blank, 2. _parent 3. _self 4. _top</td>
+	</tr>
+	<tr>
+		<td>012</td>
+		<td>< bdi></td>
+		<td>Isolates a part of text that might be formatted in a different direction from other text outside it</td>
+		<td> </td>
+	</tr>
+	<tr>
+		<td>013</td>
+		<td>< bdo></td>
+		<td>Overrides the current text direction by word</td>
+		<td>Like Bangladesh directon right to left: <bdo dir="rtl">Bangladesh</bdo></td>
+	</tr>
+	<tr>
+		<td>014</td>
+		<td>< blockquote></td>
+		<td>Defines a section that is quoted from another source</td>
+		<td> </td>
+	</tr>
+	<tr>
+		<td>015</td>
+		<td>< body></td>
+		<td>Defines the document's body</td>
+		<td>The content are showing in this document is in the body tag</td>
+	</tr>
+	<tr>
+		<td>016</td>
+		<td>< br></td>
+		<td>Defines a single line break</td>
+		<td>This is an example of <br> line break</td>
+	</tr>
+	<tr>
+		<td>017</td>
+		<td>< button></td>
+		<td>Defines a clickable button</td>
+		<td><button>Click Here</button></td>
+	</tr>
+	<tr>
+		<td>018</td>
+		<td>< canvas></td>
+		<td>Used to draw graphics, on the fly, via scripting (usually JavaScript)</td>
+		<td> JS required</td>
+	</tr>
+	<tr>
+		<td>019</td>
+		<td>< caption></td>
+		<td>Defines a table caption</td>
+		<td> <table>
+  <caption>Monthly savings</caption>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+</table>
+</td>
+	</tr>
+	<tr>
+		<td>020</td>
+		<td>< cite></td>
+		<td>Defines the title of a work</td>
+		<td>Define the title of a work with the <cite> tag: <p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p> </td>
+	</tr>
+	<tr>
+		<td>021</td>
+		<td>< code></td>
+		<td>Defines a piece of computer code</td>
+		<td> <p>The HTML <code>button</code> tag defines a clickable button.</p></td>
+	</tr>
+	<tr>
+		<td>022</td>
+		<td>< col></td>
+		<td>Specifies column properties for each column within a < colgroup> element</td>
+		<td> Please see the tble section</td>
+	</tr>
+	<tr>
+		<td>023</td>
+		<td>< colgroup></td>
+		<td>Specifies a group of one or more columns in a table for formatting</td>
+		<td>Please see the table section </td>
+	</tr>
+	<tr>
+		<td>024</td>
+		<td>< data></td>
+		<td>Adds a machine-readable translation of a given content</td>
+		<td><li><data value="21053">Cherry Tomato</data></li></td>
+	</tr>
+	<tr>
+		<td>025</td>
+		<td>< datalist></td>
+		<td>Specifies a list of pre-defined options for input controls</td>
+		<td>
+<label for="browser">Choose your browser from the list:</label>
+<input list="browsers" name="browser" id="browser">
+
+<datalist id="browsers">
+  <option value="Edge">
+  <option value="Firefox">
+  <option value="Chrome">
+  <option value="Opera">
+  <option value="Safari">
+</datalist>
+
+		</td>
+	</tr>
+	<tr>
+		<td>026</td>
+		<td>< dd></td>
+		<td>Defines a description/value of a term in a description list</td>
+		<td><dd>Black hot drink</dd></td>
+	</tr>
+	<tr>
+		<td>027</td>
+		<td>< del></td>
+		<td>Defines text that has been deleted from a document</td>
+		<td><del>Defines text that has been deleted from a document</del> </td>
+	</tr>
+	<tr>
+		<td>028</td>
+		<td>< details></td>
+		<td> Defines additional details that the user can view or hide </td>
+		<td> <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details></td>
+	</tr>
+	<tr>
+		<td>029</td>
+		<td> < dfn>	</td>
+		<td> Specifies a term that is going to be defined within the content</td>
+		<td>Please see the table section <table>
+  <colgroup>
+    <col span="2" style="background-color:red">
+    <col style="background-color:red">
+  </colgroup>
+  <tr>
+    <th>ISBN</th>
+    <th>Title</th>
+    <th>Price</th>
+  </tr>
+</table>
+
+</td>
+	</tr>
+	<tr>
+		<td>030</td>
+		<td> < dialog>	</td>
+		<td> Defines a dialog box or window</td>
+		<td> <dialog>Who is the greatest?</dialog> </td>
+	</tr>
+	<tr>
+		<td>031</td>
+		<td> < div>	</td>
+		<td> Defines a section in a document</td>
+		<td> <div> This is a div</div>
+			<div> This is a another</div></td>
+	</tr>
+	<tr>
+		<td>032</td>
+		<td> < dl></td>
+		<td> 	Defines a description list</td>
+		<td> <dl>
+  <dt>Coffee</dt>
+  <dd>Black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>White cold drink</dd>
+</dl></td>
+	</tr>
+	<tr>
+		<td>033</td>
+		<td> < dt>	</td>
+		<td> Defines a term/name in a description list</td>
+		<td><p><dfn>HTML</dfn> is the standard markup language for creating web pages.</p> </td>
+	</tr>
+	<tr>
+		<td>034</td>
+		<td> < em>	</td>
+		<td> Defines emphasized text </td>
+		<td> This is <em>emphasized</em> text</td>
+	</tr>
+	<tr>
+		<td>035</td>
+		<td> < embed></td>
+		<td>	Defines a container for an external application </td>
+		<td> <embed><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.3281346997483!2d90.36675654011847!3d23.806927985731356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c0d6f0feda5f%3A0xb4c38c534d5094bc!2sLOUVRE%20TECHS!5e0!3m2!1sen!2sbd!4v1591541100696!5m2!1sen!2sbd" width="300" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></td>
+	</tr>
+	<tr>
+		<td>036</td>
+		<td> < fieldset>	</td>
+		<td> Groups related elements in a form</td>
+		<td><form action="/action_page.php">
+  <fieldset>
+    <legend>Personalia:</legend> </td>
+	</tr>
+	<tr>
+		<td>037</td>
+		<td> < figcaption>	</td>
+		<td> Defines a caption for a < figure> element</td>
+		<td> <figcaption>This is a caption</figcaption>	</td>
+	</tr>
+	<tr>
+		<td>038</td>
+		<td>< figure></td>
+		<td>Specifies self-contained content </td>
+		<td> 	<figure>
+  				<img src="images/poster.jpg" alt="poster" style="width:250px; height: 250px; padding: none; margin:none;">
+				</figure>
+		</td>
+	</tr>
+	<tr>
+		<td>039</td>
+		<td> < footer></td>
+		<td>	Defines a footer for a document or section </td>
+		<td> See the bottom of this page please</td>
+	</tr>
+	<tr>
+		<td>040</td>
+		<td> < form>	</td>
+		<td>Defines an HTML form for user input </td>
+		<td>Example: See the next section of this page please</td>
+	</tr>
+	<tr>
+		<td>041</td>
+		<td> < h1> to < h6>	</td>
+		<td> Defines HTML headings</td>
+		<td><h1>Heading 1</h1> 
+			<h2>Heading 2</h2>
+			<h3>Heading 3</h3>
+			<h4>Heading 4</h4>
+			<h5>Heading 5</h5>
+			<h6>Heading 6</h6></td>
+	</tr>
+	<tr>
+		<td>042</td>
+		<td> < head>	</td>
+		<td> Contains metadata/information for the document</td>
+		<td> The < head> element is a container for metadata (data about data) and is placed between the < html> tag and the < body> tag.
+Metadata is data about the HTML document. Metadata is not displayed. Metadata typically define the document title, character set, styles, scripts, and other meta information. The following elements can go inside the < head> element: Inspect to see 
+<!--
+<title> (required in every HTML document)
+<style>
+<base>
+<link>
+<meta>
+<script>
+<noscript>-->
+
+</td>
+	</tr>
+	<tr>
+		<td>043</td>
+		<td> < header></td>
+		<td> 	Defines a header for a document or section</td>
+		<td> The < header> element represents a container for introductory content or a set of navigational links. A < header> element typically contains: one or more heading elements (< h1>-< h6>), logo or icon, authorship information</td>
+	</tr>
+	<tr>
+		<td>044</td>
+		<td> < hr>	</td>
+		<td> Defines a thematic change in the content</td>
+		<td>This is an example of <hr> hrizontal line </td>
+	</tr>
+	<tr>
+		<td>045</td>
+		<td> < html>	</td>
+		<td> Defines the root of an HTML document</td>
+		<td> The < html> tag represents the root of an HTML document. The <html> tag is the container for all other HTML elements</td>
+	</tr>
+	<tr>
+		<td>046</td>
+		<td> < i>	</td>
+		<td> Defines a part of text in an alternate voice or mood</td>
+		<td><p>The <i>RMS Titanic</i>, a luxury steamship, sank on April 15, 1912 after striking an iceberg.</p> </td>
+	</tr>
+	<tr>
+		<td>047</td>
+		<td> < iframe></td>
+		<td> 	Defines an inline frame</td>
+		<td> <iframe width="400" height="250" src="https://www.youtube.com/embed/lgm3puP3tMA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+	</tr>
+	<tr>
+		<td>048</td>
+		<td> < img></td>
+		<td> 	Defines an image</td>
+		<td> <img src="images/poster.jpg" width="100px" height="100px" alt="poster"></td>
+	</tr>
+	<tr>
+		<td>049</td>
+		<td> < input>	</td>
+		<td> Defines an input control</td>
+		<td> <input type="text" name="" placeholder="Type Your Name"> </td>
+	</tr>
+	<tr>
+		<td>050</td>
+		<td> < ins></td>
+		<td>	Defines a text that has been inserted into a documentins  </td>
+		<td> <p>My favorite color is <ins>red</ins>!</p></td>
+	</tr>
+
+</tbody>
+</table>
+
+
+<div class="wrapper">
+<h2 style="color:red; text-align: center;">MAKING FORM</h2>
+
+<!-- Form Start -->
+
+	<form action="#" method="get" enctype="multipart/form-data">
+		<lebel for="first_name">First Name</lebel><br>
+		<input type="text" placeholder="Your First Name" name="first_name" id="first_name" class="first_name"><br>
+
+<!-- palceholder er opposite; fixd ba default data send korte chaile value property use korte hobe. like value="Nazmul Karim"-->
+		<lebel for="Email Address"><br>
+		<input type="email" placeholder="Type Your Email Address"><br>
+
+		<lebel for="Password"><br>
+		<input type="password" placeholder="Type Your Password"><br>
+		<lebel for="Gender">
+		<span><input type="radio" value="female" name="female" id="female" class="female"></span>
+		<span><input type="radio" value="male" name="male" id="male" class="male"><br></span>
+		<input type="checkbox" placeholder="Click the checkbox"><br>
+		<input type="checkbox" placeholder="Click the checkbox"><br>
+	
+	
+	</form>
+<!--a link of what to do when submit button click -->
+<!--Methods: get method (page link hidden- secured way) & post metod (open & no question of seurity issue, link not hidden. -->
+<!-- Note: The enctype attribute can be used only if method="post".-->
+
+<!--
+
+	HTML Input Type-
+
+<input type="button">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="reset">
+<input type="search">
+<input type="submit">
+<input type="tel">
+<input type="text">
+<input type="time">
+<input type="url">
+<input type="week">
+
+	input type: text
+
+	<label for="fname">First name:</label><br>
+	<input type="text" id="fname" name="fname"><br>
+	<label for="lname">Last name:</label><br>
+  	<input type="text" id="lname" name="lname">
+
+  	or- user & pass
+
+  <label for="username">Username:</label><br>
+  <input type="text" id="username" name="username"><br>
+  <label for="pwd">Password:</label><br>
+  <input type="password" id="pwd" name="pwd">
+
+-->
+</div>
+</div>
+<footer style="text-align: center; background-color: lightgray;">Copyright to @Nazmul karim-2020</footer>
+</body>
+</html>
